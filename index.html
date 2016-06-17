@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Making games | Spiele machen</title>
+    <link href="http://overpass-30e2.kxcdn.com/overpass.css" rel="stylesheet" />
+    <style>
+      html, body {
+      font-family: Overpass, sans-serif;
+      font-weight: 600;
+      color: #333;
+      }
+      .intro-image {
+      max-width: 200px;
+      display: inline-block;
+      margin-right: 1.4em;
+      }
+      .intro-image img {
+      width: 100%;
+      height: auto;
+      vertical-align: top;
+      }
+      ul {
+      font-size: 36px;
+      line-height: 1.45;
+      }
+      p {
+      font-size: 36px;
+      }
+      .deadline {
+      font-size: 60px;
+      color: crimson;
+      border: 5px solid crimson;
+      text-align: center;
+      border-radius: 2px;
+      line-height: 2;
+      background: pink;
+      transform: translateY(190%);
+      }
+      a {
+      text-decoration: none;
+      color: #333;
+      border-bottom: 3px solid #27A8DF;
+      }
+      a:hover,
+      a:active {
+      border-bottom: none;
+      background-color: #b1eefc;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+
+      class: center, middle
+
+      .left[
+      # Making games
+      ]
+
+      .right[
+      # Spiele machen
+      ]
+
+      .wrap[
+      ClojureBridge Berlin | June 18th 2016 | Lisa
+      ]
+
+      ---
+
+      .left[
+      # Why games?
+      ]
+
+      .right[
+      # Warum Spiele?
+      ]
+
+      ---
+
+      .left[
+      # Because ...
+      - incorporates a lot of programming basics
+      - creative and interactive
+      - you can show it to your friends
+      ]
+
+      .right[
+      # Weil ...
+      - beinhaltet viele Programmiergrundlagen
+      - kreativ und interaktiv
+      - du kannst es deinen Freunden zeigen
+      ]
+
+      ---
+
+      .left[
+      # What do you need to make a game?
+      ]
+
+      .right[
+      # Was brauchst du um ein Spiel zu machen?
+      ]
+
+      ---
+
+      .left[
+      - initalize a set of data
+      - update that data 60 per second
+      - draw shapes based on the data 60 times per second
+      - events/ interaction/ rules that change that data
+      ]
+
+      .right[
+      - beginne mit einem Datenset
+      - aktualisiere diese Daten 60 mal pro Sekunde
+      - zeichne auf den Daten basierende Formen 60 mal pro Sekunde
+      - Ereignisse/ Interaktionen/ Regeln verändern die Daten
+      ]
+
+      ---
+
+      .left[
+      # Sounds very complicated?
+      ]
+
+      .right[
+      # Klingt sehr kompliziert?
+      ]
+
+      ---
+
+      .left[
+      # Quil to the rescue!
+      ]
+
+      .right[
+      # Quil eilt zur Hilfe!
+      ]
+
+      ---
+
+      .left[
+      ## Quil has
+      - a `setup` function
+      - an  `update` function
+      - a `draw` function
+      ]
+
+      .right[
+      ## Quil hat
+      - eine `setup` Funktion
+      - eine `update` Funktion
+      - eine `draw` Funktion
+      ]
+
+      ---
+
+      .left[
+      ## Also
+      - a lot of interfaces for interaction
+      - you can program the rules yourself
+      ]
+
+      .right[
+      ## Auch
+      - viele Schnittstellen für Interaktion
+      - du kannst die Regeln selbst programmieren
+      ]
+
+      ---
+
+      .left[
+      # Take a look at
+      ]
+      .right[
+      # Wirf einen Blick auf
+      ]
+
+      .center[
+      - Quil Docs  http://quil.info/api
+      - Clojure Docs http://clojuredocs.org/
+      - A little game https://github.com/lislis/anti-pong
+      ]
+
+    </textarea>
+    <script src="remark.min.js"></script>
+    <script>var slideshow = remark.create({ratio: "16:9"});</script>
+  </body>
+</html>
